@@ -3,6 +3,16 @@
 	"vendorId": "0x320F",
 	"productId": "0x5055",
 	"lighting": {
+		"extends": "qmk_rgblight",
+		"underglowEffects": [
+			[ "OFF_MODE", 0 ],
+			[ "WAVE_MODE", 0 ],
+			[ "COLOUR_CLOUD_MODE", 0 ],
+			[ "RAIN_MODE", 0 ],
+			[ "SCAN_MODE", 0 ],
+			[ "TRIGGER_COLOUR_MODE", 0 ],
+			[ "CENTER_SPREAD_MODE", 0 ]
+		]
 	},
 	"matrix": { "rows": 8, "cols": 15 },
 	"customKeycodes": [
