@@ -3,28 +3,6 @@
 	"vendorId": "0x320F",
 	"productId": "0x5055",
 	"lighting": {
-		"extends": "qmk_rgblight",
-		"underglowEffects": [
-			[ "OFF_MODE", 0 ],
-			[ "WAVE_MODE", 0 ],
-			[ "COLOUR_CLOUD_MODE", 0 ],
-			[ "VORTEX_MODE", 0 ],
-			[ "MIX_COLOUR_MODE", 0 ],
-			[ "BREATHE_MODE", 0 ],
-			[ "LIGHT_MODE", 0 ],
-			[ "SLOWLY_OFF_MODE", 0 ],
-			[ "STONE_MODE", 0 ],
-			[ "LASER_MODE", 0 ],
-			[ "STARRY_MODE", 0 ],
-			[ "FLOWERS_OPEN_MODE", 0 ],
-			[ "TRAVERSE_MODE", 0 ],
-			[ "WAVE_BAR_MODE", 0 ],
-			[ "METEOR_MODE", 0 ],
-			[ "RAIN_MODE", 0 ],
-			[ "SCAN_MODE", 0 ],
-			[ "TRIGGER_COLOUR_MODE", 0 ],
-			[ "CENTER_SPREAD_MODE", 0 ]
-		]
 	},
 	"matrix": { "rows": 8, "cols": 15 },
 	"customKeycodes": [
